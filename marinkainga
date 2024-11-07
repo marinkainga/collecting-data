@@ -1,0 +1,30 @@
+git config --global user.email "marinkav97@gmail.com"
+git config --global user.email
+marinkav97@gmail.com
+
+
+$ git config --global user.email
+marinkav97@gmail.com
+mkdir git_practice
+cd git_practice
+git init
+echo "Hello Git and GitHub" >> README.txt
+git add README.txt
+$ git status
+git remote add origin https://github.com/marinkainga/collecting-data.git
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/marinkainga/collecting-data.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/marinkainga/collecting-data.git
+git branch -M main
+git push -u origin main
+echo "# collecting-data" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/marinkainga/collecting-data.git
+git push -u origin main
